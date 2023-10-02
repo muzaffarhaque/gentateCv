@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 60px;
+}
+.br-10 {
+    border-radius: 1rem;
+}
+.br-8 {
+    border-radius: 0.8rem;
+}
+.br-4 {
+    border-radius: 0.4rem;
+}
+.br-20 {
+    border-radius: 2rem;
+}
+.br-50 {
+    border-radius: 50%;
+}
+// =================== COMON CSS START ==================
+
+.primary {
+    color: $primary;
+}
+.black-242 {
+    color: $black-242;
+}
+.black-707 {
+    color: $black-707;
+}
+.black-495 {
+    color: $black-495;
+}
+.green-5DF {
+    color: $green-5DF;
+}
+.bg-ECE {
+    background: $grey-ECE;
+}
+// .bg-primary {
+//     background-color: $primary !important;
+// }
+.grey-151 {
+    color: $grey-151;
+}
+.grey-919 {
+    color: $grey-919;
+}
+.black-242 {
+    color: $black-242;
+}
+// ========= FONT SICE RESPONSIVE -----------------------
+.fs-32-28 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.fs-32-24 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+.fs-36-24 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+}
+.fs-10-7 {
+    font-size: 1rem;
+    line-height: 12px;
+}
+.fx-18 {
+    font-size: 1.8rem;
+}
+.fs-18-12,
+.fs-18-14,
+.fs-18-16,
+.fs-18-9 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+.fs-57-28,
+.fs-57-32,
+.ft-57-32 {
+    font-size: 5.7rem;
+    line-height: 6.4rem;
+}
+.fs-75-41 {
+    font-size: 7.5rem;
+    line-height: 8.4rem;
+}
+.fs-22-13,
+.fs-22-14,
+.fs-22-16,
+.fs-22-18 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+.fs-24-12 {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+.fs-26-12 {
+    font-size: 2.6rem;
+    line-height: 2.9rem;
+}
+.fs-14-11,
+.fs-14-13,
+.fs-14-9 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.fs-28-18,
+.fs-28-24,
+.ft-28-18 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+.fs-14-12,
+.fx-14 {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.fs-14-10 {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.fs-24-14,
+.fs-24-16,
+.fs-24-18,
+.fx-24 {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+.fs-16-12,
+.fs-16-13,
+.fs-16-14,
+.fx-16 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.fx-12 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-900 {
+    font-weight: 900;
+}
+.mb-24 {
+    margin-bottom: 2.4rem;
+}
+.mw-151 {
+    max-width: 15.1rem !important;
+    width: 100%;
+}
+.mw-200 {
+    max-width: 20rem;
+    width: 100%;
+}
+.mw-101 {
+    max-width: 10rem;
+    width: 100%;
+}
+.mh-400 {
+    min-height: 40rem !important;
+    height: 100%;
+}
+.lh-70 {
+    line-height: 7rem !important;
+}
+.b-greeen {
+    border-bottom: 4px solid $green-4CA;
+}
+// ========= FONT SICE RESPONSIVE -----------------------
+.desk-show {}
+.cancel-menu,
+.mb-show,
+.menu-bar,
+.tab-show {
+    display: none;
+}
+.mb-flex {
+    display: none !important;
+}
+.search-border {
+    border: 0.1rem solid $black-4;
+    max-width: 100% !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.mw-90 {
+    width: 9rem;
+}
+.mw-698 {
+    max-width: 69.8rem;
+    width: 100%;
+}
+.mw-340 {
+    max-width: 34rem;
+    width: 100%;
+}
+.pe-0 {
+    padding-right: 0 !important;
+}
+.right-0 {
+    right: 0;
+}
+.red-border {
+    border: 1.5px solid red;
+}
+.folder-clip {
+    clip-path: polygon(0 0, 0% 20%, 0 49%, 0% 80%, 0 98%, 42% 100%, 80% 100%, 100% 100%, 100% 59%, 100% 19%, 51% 19%, 45% 0);
+}
+.input-box {
+    border-radius: 0.4rem;
+    border: 1px solid $black-11;
+    background: $white;
+    color: $black-242;
+    width: 100%;
+    max-width: 34rem;
+    padding: 0.6rem 1rem;
+    outline: none;
+    &::placeholder {
+        color: $black-242;
+        opacity: 0.5;
+    }
+}
+.higheLight {
+    border: 1px solid $black-242;
+    color: $black-242;
+}
+.primary-btn {
+    border-radius: 0.8rem;
+    padding: 1rem 2.4rem;
+    color: $white;
+    border-radius: 0.8rem;
+    border: 1.7px solid var(--$white, $white);
+    background: var(--f-inblue, $primary);
+    font-family: Lato;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+.secondary-btn {
+    padding: 0.4rem 1.6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid $white;
+    background-color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.9rem;
+    //   box-shadow: 0 0 10px rgba(11, 11, 11,.1);
+    // @include font($primary, "Inter-Regular", 1.4rem, 500, 2rem);
+}
+.mult-text-Submit {
+    padding: 0.6rem 1rem;
+    border: 1px solid rgb(179, 176, 176);
+    background-color: $primary;
+    border-radius: 0 0.8rem 0.8rem 0;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    color: white;
+
+}
+// COLOR
+.primary {
+    color: $primary;
+}
+.secondary {
+    color: $secondary;
+}
+.grey-757 {
+    color: $grey-757;
+}
+.grey-D9D {
+    color: $grey-D9D;
+}
+
+//Button - BG - COLOR
+
+.bg-green-4CA {
+    background-color: $green-4CA;
+}
+.bg-red-D43 {
+    background-color: $red-D43;
+}
+// MARGIN - PADDING
+.mb-10 {
+    margin-bottom: 1rem;
+}
+.pb-10 {
+    padding-bottom: 1rem;
+}
+.pb-20 {
+    padding-bottom: 2rem;
+}
+.w-51 {
+    width: 50%;
+}
+// ?===================== FORM CSS START =====================
+.form-main-section {
+    padding: 40px 0;
+    .form-details {
+        padding: 30px 0 0;
+    }
+}
+.form-detail-wrapper {
+    gap: clamp(24px,3.5vw,50px);
+}
+.muiltiple-text-select-dropdoen {
+    background-color: whitesmoke;
+    padding: 1.5rem 1rem;
+}
+.education-frame {
+    padding: 1rem;
+    box-shadow: 0 -5px 5px rgba(116, 115, 115, 0.1), 0 5px 5px rgba(116, 115, 115, 0.1);
+    border-radius: 1rem;
+    background-color: rgba(204, 204, 252,.1);
+ 
+    .education-form-wrapper {
+        border-top: 1px solid black;
+        padding: 1.5rem 0 2rem 0;
+        
+    }
+}
+// ?===================== FORM CSS END  =====================
+// ======================= RESUME SECTION START CSS =========================
+.main-section-resume {
+    display: flex;
+    align-items: stretch;
+    justify-content: start;
+
+}
+.green-ribbin-strip{
+    padding: 2rem;
+    width: 88vw;
+    max-width: 1320px;
+    left: -2rem;
+    margin-top:3rem ;
+    position: relative;
+    z-index: 2;
+    background-color: $green-5DF;
+    // color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4vw;
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &::-webkit-scrollbar{
+        appearance: none;
+        display: none;
+    }
+}
+.prfole-section-col {
+    width: 34%;
+    max-width: 450px;
+    background-color: $white;
+    padding-left: 16px;
+    .black-shad-profile {
+        padding: 0 10px;
+        background-color: $black;
+        text-align: center;
+        padding: 80px 10px;
+        .image-wrapper {
+            width: 70%;
+            aspect-ratio: 1;
+            max-width: 300px;
+            border-radius: 50%;
+            border: 5px solid $green-5DF;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+
+    }
+}
+.objective-text {
+    padding: 66px 10px 0;
+    p {
+        padding: 30px 0 0;
+    }
+}
+.content-section-col {
+    width: 66%;
+    background-color: $white;
+    padding-left: 2rem;
+    .name-right-box{
+        padding: 14rem 1rem clamp(10px,15vw,257px) clamp(2rem,9vw,10rem);
+
+    }
+}
+// ======================= RESUME SECTION START END =========================
